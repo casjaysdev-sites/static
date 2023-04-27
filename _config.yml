@@ -161,16 +161,16 @@ collections:
     output: true
   tutorials:
     output: true
-    permalink: /howto/:name
+    permalink: "/howto/:name"
   issues:
     output: true
-    permalink: /issues/:name
+    permalink: "/issues/:name"
   wiki:
     output: true
-    permalink: /wiki/:name
+    permalink: "/wiki/:name"
   recipes:
     output: true
-    permalink: /recipes/:name
+    permalink: "/recipes/:name"
 
 redirect_from:
   json: true
@@ -203,7 +203,7 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   sass_dir: _sass
-  style: :expanded
+  style: expanded
 
 jekyll_tidy:
   compress_html: true
@@ -229,6 +229,7 @@ plugins:
   - jekyll-tidy
 
 include:
+  - inc
   - _pages
   - images
   - assets
@@ -238,7 +239,7 @@ include:
   - default-html
   - default-icons
   - default-js
-  - inc
+  - .htaccess
 
 # Exclude these files from your production _site
 exclude:
@@ -248,9 +249,8 @@ exclude:
   - CNAME
   - .keep
   - .gitkeep
-
 # full domain name IE: httmp://mysite.com
-url:
+#url:
 #webrick:
 #  headers:
 #    Access-Control-Allow-Origin: "*"
