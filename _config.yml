@@ -249,6 +249,7 @@ exclude:
   - CNAME
   - .keep
   - .gitkeep
+  - README.md
 # full domain name IE: httmp://mysite.com
 #url:
 #webrick:
