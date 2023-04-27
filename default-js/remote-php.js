@@ -1,1 +1,3 @@
-$("#result").load("https://static.casjay.net/casjays-footer.php");
+$("#result").load(
+  "https://casjaysdev-sites.github.io/static/casjays-footer.php"
+);
