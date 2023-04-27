@@ -6,7 +6,7 @@
   {% include casjays-header.html %}
 
   {% if site.custom_theme.name %}
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ site.custom_theme.name }}.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/default-css/{{ site.custom_theme.name }}.css">
   <link rel="stylesheet" href="{{ site.custom_theme.css_file }}">
   {% endif %}
 
@@ -19,15 +19,15 @@
 
     {% if site.github.forkme == true %}
     <a class="github-fork-ribbon left-top" href="{{ site.github.repository_url }}/fork" data-ribbon="Fork me on GitHub"
-      title="Fork me on GitHub">Fork me on GitHub</a>
+      title="Fork me on GitHub">Fork me on GitHub
+    </a>
     {% endif %}
 
     <div class="footer footer-custom col-sm-12">
       {% include {{ site.custom_theme.footer }} %}
     </div>
-    <br><br><br><br><br><br><br>
-    </divcontainer-fluid>
-
+    <br /><br /><br /><br /><br /><br /><br />
+  
+  </div>
 </body>
-
 </html>

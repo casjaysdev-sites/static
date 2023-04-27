@@ -13,13 +13,13 @@
 <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/darkly/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-rCA2D+D9QXuP2TomtQwd+uP50EHjpafN+wruul0sXZzX/Da7Txn4tB9aLMZV4DZm" crossorigin="anonymous">
 
-<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/default-css/style.css" />
 
-<link rel="stylesheet" type="text/css" href="https://casjaysdev-sites.github.io/static/assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="https://casjaysdev-sites.github.io/static/default-css/style.css" />
 
-<link rel="stylesheet" type="text/css" href="https://casjaysdev-sites.github.io/static/assets/css/global.css" />
+<link rel="stylesheet" type="text/css" href="https://casjaysdev-sites.github.io/static/default-css/global.css" />
 
-<link rel="stylesheet" type="text/css" href="https://casjaysdev-sites.github.io/static/assets/css/social.css" />
+<link rel="stylesheet" type="text/css" href="https://casjaysdev-sites.github.io/static/default-css/social.css" />
 
 <link rel="stylesheet" type="text/css" href="https://casjaysdev-sites.github.io/static/default-css/casjaysdev.css" />
 

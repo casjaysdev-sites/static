@@ -231,6 +231,14 @@ plugins:
 include:
   - _pages
   - images
+  - assets
+  - default-css
+  - default-error
+  - default-fonts
+  - default-html
+  - default-icons
+  - default-js
+  - inc
 
 # Exclude these files from your production _site
 exclude:
