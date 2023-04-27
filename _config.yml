@@ -233,12 +233,6 @@ include:
   - _pages
   - images
   - assets
-  - default-css
-  - default-error
-  - default-fonts
-  - default-html
-  - default-icons
-  - default-js
   - .htaccess
 
 # Exclude these files from your production _site
