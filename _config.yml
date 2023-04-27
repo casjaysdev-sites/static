@@ -229,10 +229,20 @@ plugins:
   - jekyll-tidy
 
 keep_files:
-  - */*
+  - default-*
 
 include:
-  - */*
+  - inc
+  - _pages
+  - images
+  - assets
+  - default-css
+  - default-error
+  - default-fonts
+  - default-html
+  - default-icons
+  - default-js
+  - .htaccess
 
 # Exclude these files from your production _site
 exclude:
@@ -244,6 +254,8 @@ exclude:
   - .gitkeep
   - default-*/*README.md
 
+keep_files:
+  - default-*
 # full domain name IE: httmp://mysite.com
 #url:
 #webrick:
